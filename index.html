@@ -8,6 +8,11 @@
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css">
+      .pointerCursor{
+        cursor: pointer;
+      }
+    </style>
   </head>
 
   <body>
@@ -15,136 +20,149 @@
     <nav class="navbar navbar-default" style="border-color: #1f4056; border-radius: 0px; border-width: 0px; border-bottom-width: 2px;">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" onclick="showAllCourses()" style="color: #1f4056;">CodeCademy Hidden Courses</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coursesMenu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand pointerCursor" onclick="showAllCourses()" style="color: #1f4056;">CodeCademy Hidden Courses</a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li id="showWeb" class="active"><a onclick="showCourse('.web')">Web Development</a></li>
-          <li id="showPro"><a onclick="showCourse('.pro')">Programming</a></li>
-          <li id="showData"><a onclick="showCourse('.data')">Data Science</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="coursesMenu">
+          <ul class="nav navbar-nav navbar-right" id="menuItems">
+            <li id="show_web"><a class="pointerCursor" onclick="showCourse('web')">Web Development</a></li>
+            <li id="show_pro"><a class="pointerCursor" onclick="showCourse('pro')">Programming</a></li>
+            <li id="show_data"><a class="pointerCursor" onclick="showCourse('data')">Data Science</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
+    <div class="container">
+      <div id="courses">
+        <div id="html" class="course web">
+          <details>
+            <summary>HTML</summary>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-MWF0C-FYSv3-r1rYm/0/1" target="_blank" class="link">HTML BASICS</a><br/>
+            <a href="https://www.codecademy.com/en/tracks/web-original" target="_blank" class="link">Web Original</a><br/>
+            <a href="https://www.codecademy.com/courses/lists-in-html/0/1" target="_blank" class="link">Lists in HTML</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-y2Yjd/0/1" target="_blank" class="link">HTML Basics II</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1" target="_blank" class="link">HTML Basics</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-Hdmch/0/1" target="_blank" class="link">HTML5 Games: Physics</a><br/>
+            <a href="https://www.codecademy.com/courses/web-intermediate-en-CkOwl/0/1" target="_blank" class="link">HTML5 Games: Getting Started</a><br/>
+            <a href="https://www.codecademy.com/courses/web-intermediate-en-R6bnc/0/1" target="_blank" class="link">HTML5</a><br/>
+            <a href="https://www.codecademy.com/courses/web-intermediate-en-5LH5k/0/1" target="_blank" class="link">HTML5 Games: Getting Input</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-Kufo3/0/1" target="_blank" class="link">HTML Basics III</a><br/>
+          </details>
+        </div>
+        <div id="css" class="course web">
+         <details>
+            <summary>CSS</summary>
+            <a href="https://www.codecademy.com/courses/css-coding-with-style/0/1" target="_blank" class="link">CSS: Coding With Style</a><br/>
+            <a href="https://www.codecademy.com/courses/advanced-css-positioning/0/1" target="_blank" class="link">Advanced CSS Positioning</a><br/>
+          </details>
+        </div>
+        <div id="javascript" class="course web">
+          <details>
+            <summary>JavaScript</summary>
+            <a href="https://www.codecademy.com/courses/web-intermediate-en-jfhjJ/0/1" target="_blank" class="link">Build a calcuator</a><br/>
+            <a href="https://www.codecademy.com/en/tracks/javascript-original" target="_blank" class="link">javascript-original</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-IN1IP/0/1" target="_blank" class="link">Javascript various topics</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-jJ4wD/0/1" target="_blank" class="link">Challenges [Javascript] 3</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-vBwnV/0/1" target="_blank" class="link">Review of Functions in JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-6RiqN/0/1" target="_blank" class="link">Small-Scale Javascript, part II: looping</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-d0Mp0/0/1" target="_blank" class="link">Javascript First Challenges! (BETA)</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-ftxvD/0/1" target="_blank" class="link">Ninja Coding - Javascript - Part 1</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-intermediate-en-NmK02/0/1" target="_blank" class="link">Javascript Text-Based RPG</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-Zgxr6/0/1" target="_blank" class="link">Basics &amp; Essentials of JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-EID4t/0/1" target="_blank" class="link">How to use APIs with JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-5bl8g/0/1" target="_blank" class="link">Introducing JavaScript - Simple Scripts</a><br/>
+            <a href="https://www.codecademy.com/courses/intro-to-client-side-javascript/0/1" target="_blank" class="link">Track(1):Intro to Client-Side JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-SEgtM/0/1" target="_blank" class="link">JavaScript and CSS</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-5knNv/0/1" target="_blank" class="link">JavaScript and Cookies</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-6sc7L/0/1" target="_blank" class="link">Small-Scale Javascript, part I</a><br/>
+            <a href="https://www.codecademy.com/courses/i-know-not-of-this-so-called-triangle-in-javacsript/0/1" target="_blank" class="link">Quick Math in JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-SWM11/0/1" target="_blank" class="link">Draw with JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/code-javascript-collections/0/1" target="_blank" class="link">JavaScript collections</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-lesson-27/0/1" target="_blank" class="link">Math in JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-intro/0/1" target="_blank" class="link">JavaScript Quick Start Guide</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-for-jquery/0/1" target="_blank" class="link">Javascript review for jQuery</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-lesson-205/0/1" target="_blank" class="link">Recursion in JavaScript</a><br/>
+            <a href="https://www.codecademy.com/courses/html-javascript-css/0/1" target="_blank" class="link">HTML + Javascript + CSS</a><br/>
+            <a href="https://www.codecademy.com/en/courses/javascript-intermediate-en-mxOUj/0/1" target="_blank" class="link">Error handling</a><br/>
+            <a href="https://www.codecademy.com/courses/web-advanced-en-wQkx9/0/1" target="_blank" class="link">HTML Games: Drawing 3D in Three.js</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-lesson-F318S/0/1" target="_blank" class="link">Variables</a><br/>
+          </details>
+        </div>
+        <div id="php" class="course web pro">
+          <details>
+            <summary>PHP</summary>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-7I7Xm/0/1" target="_blank" class="link">PHP Functions</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/1" target="_blank" class="link">PHP Object oriented (classes)</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-8a35h/0/1" target="_blank" class="link">PHP Arrays</a><br/>
+          </details>
+        </div>
+        <div id="ruby" class="course pro">
+          <details>
+            <summary>Ruby</summary>
+          </details>
+        </div>
+        <div id="python" class="course pro">
+          <details>
+            <summary>Python</summary>
+            <a href="http://www.codecademy.com/courses/python-beginner-en-fymF4/0/1" target="_blank" class="link">Teach Yourself Python</a><br/>
+          </details>
+        </div>
+        <div id="jQuery" class="course web">
+          <details>
+            <summary>jQuery</summary>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-lxkh0/0/1" target="_blank" class="link">Using jQuery</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-6DYRu/0/1" target="_blank" class="link">The jQuery UI User Interface Library</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-beginner-en-tKzmu/0/1" target="_blank" class="link">Notes on jQuery</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-jtFIC/0/1" target="_blank" class="link">jQuery Effects</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-JwhI1/0/1" target="_blank" class="link">jQuery Events</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-GfjC6/0/1" target="_blank" class="link">jQuery Functions and Selectors</a><br/>
+            <a href="https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1" target="_blank" class="link">Introduction to jQuery</a><br/>
+            <a href="https://www.codecademy.com/courses/web-intermediate-9tw0N/0/1" target="_blank" class="link">jQuery Effects and Plugins</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-lesson-951/0/1" target="_blank" class="link">Sliding with jQuery</a><br/>
+            <a href="https://www.codecademy.com/courses/jquery-events/0/1" target="_blank" class="link">jQuery Events</a><br/>
+            <a href="https://www.codecademy.com/courses/jquery-checkers-part-2/0/1" target="_blank" class="link">jQuery Checkers - Part 2</a><br/>
+            <a href="https://www.codecademy.com/courses/basic-jquery-part-two/0/1" target="_blank" class="link">Basic jQuery - Part Two</a><br/>
+            <a href="https://www.codecademy.com/courses/jquery-checkers/0/1" target="_blank" class="link">jQuery Checkers</a><br/>
+            <a href="https://www.codecademy.com/courses/basic-jquery/0/1" target="_blank" class="link">Basic jQuery</a><br/>
+            <a href="https://www.codecademy.com/courses/you-and-jquery/0/1" target="_blank" class="link">jQuery Bar Graph</a><br/>
+            <a href="https://www.codecademy.com/courses/javascript-for-jquery/0/1" target="_blank" class="link">Javascript review for jQuery</a><br/>
+          </details>
+        </div>
+        <div id="api" class="course web">
+          <details>
+            <summary>API</summary>
+            <a href="https://www.codecademy.com/en/tracks/placekitten" target="_blank" class="link">Placekitten API</a><br/>
+          </details>
+        </div>
+        <div id="react" class="course web">
+          <details>
+              <summary>REACT</summary>
+              <a href="https://www.codecademy.com/learn/react-101" target="_blank" class="link">Learn ReactJS: Part I</a><br/>
+              <a href="https://www.codecademy.com/learn/react-102" target="_blank" class="link">Learn ReactJS: Part II</a><br/>
+          </details>
+        </div>
+      </div>
 
-    <div id="courses">
-      <div id="html" class="course web">
-        <details>
-          <summary>HTML</summary>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-MWF0C-FYSv3-r1rYm/0/1" target="_blank" class="link">HTML BASICS</a><br/>
-          <a href="https://www.codecademy.com/en/tracks/web-original" target="_blank" class="link">Web Original</a><br/>
-          <a href="https://www.codecademy.com/courses/lists-in-html/0/1" target="_blank" class="link">Lists in HTML</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-y2Yjd/0/1" target="_blank" class="link">HTML Basics II</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1" target="_blank" class="link">HTML Basics</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-Hdmch/0/1" target="_blank" class="link">HTML5 Games: Physics</a><br/>
-          <a href="https://www.codecademy.com/courses/web-intermediate-en-CkOwl/0/1" target="_blank" class="link">HTML5 Games: Getting Started</a><br/>
-          <a href="https://www.codecademy.com/courses/web-intermediate-en-R6bnc/0/1" target="_blank" class="link">HTML5</a><br/>
-          <a href="https://www.codecademy.com/courses/web-intermediate-en-5LH5k/0/1" target="_blank" class="link">HTML5 Games: Getting Input</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-Kufo3/0/1" target="_blank" class="link">HTML Basics III</a><br/>
-        </details>
-      </div>
-      <div id="css" class="course web">
-       <details>
-          <summary>CSS</summary>
-          <a href="https://www.codecademy.com/courses/css-coding-with-style/0/1" target="_blank" class="link">CSS: Coding With Style</a><br/>
-          <a href="https://www.codecademy.com/courses/advanced-css-positioning/0/1" target="_blank" class="link">Advanced CSS Positioning</a><br/>
-        </details>
-      </div>
-      <div id="javascript" class="course web">
-        <details>
-          <summary>JavaScript</summary>
-          <a href="https://www.codecademy.com/courses/web-intermediate-en-jfhjJ/0/1" target="_blank" class="link">Build a calcuator</a><br/>
-          <a href="https://www.codecademy.com/en/tracks/javascript-original" target="_blank" class="link">javascript-original</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-IN1IP/0/1" target="_blank" class="link">Javascript various topics</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-jJ4wD/0/1" target="_blank" class="link">Challenges [Javascript] 3</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-vBwnV/0/1" target="_blank" class="link">Review of Functions in JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-6RiqN/0/1" target="_blank" class="link">Small-Scale Javascript, part II: looping</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-d0Mp0/0/1" target="_blank" class="link">Javascript First Challenges! (BETA)</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-ftxvD/0/1" target="_blank" class="link">Ninja Coding - Javascript - Part 1</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-intermediate-en-NmK02/0/1" target="_blank" class="link">Javascript Text-Based RPG</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-Zgxr6/0/1" target="_blank" class="link">Basics &amp; Essentials of JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-EID4t/0/1" target="_blank" class="link">How to use APIs with JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-5bl8g/0/1" target="_blank" class="link">Introducing JavaScript - Simple Scripts</a><br/>
-          <a href="https://www.codecademy.com/courses/intro-to-client-side-javascript/0/1" target="_blank" class="link">Track(1):Intro to Client-Side JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-SEgtM/0/1" target="_blank" class="link">JavaScript and CSS</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-5knNv/0/1" target="_blank" class="link">JavaScript and Cookies</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-6sc7L/0/1" target="_blank" class="link">Small-Scale Javascript, part I</a><br/>
-          <a href="https://www.codecademy.com/courses/i-know-not-of-this-so-called-triangle-in-javacsript/0/1" target="_blank" class="link">Quick Math in JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-SWM11/0/1" target="_blank" class="link">Draw with JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/code-javascript-collections/0/1" target="_blank" class="link">JavaScript collections</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-lesson-27/0/1" target="_blank" class="link">Math in JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-intro/0/1" target="_blank" class="link">JavaScript Quick Start Guide</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-for-jquery/0/1" target="_blank" class="link">Javascript review for jQuery</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-lesson-205/0/1" target="_blank" class="link">Recursion in JavaScript</a><br/>
-          <a href="https://www.codecademy.com/courses/html-javascript-css/0/1" target="_blank" class="link">HTML + Javascript + CSS</a><br/>
-          <a href="https://www.codecademy.com/en/courses/javascript-intermediate-en-mxOUj/0/1" target="_blank" class="link">Error handling</a><br/>
-          <a href="https://www.codecademy.com/courses/web-advanced-en-wQkx9/0/1" target="_blank" class="link">HTML Games: Drawing 3D in Three.js</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-lesson-F318S/0/1" target="_blank" class="link">Variables</a><br/>
-        </details>
-      </div>
-      <div id="php" class="course web pro">
-        <details>
-          <summary>PHP</summary>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-7I7Xm/0/1" target="_blank" class="link">PHP Functions</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/1" target="_blank" class="link">PHP Object oriented (classes)</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-8a35h/0/1" target="_blank" class="link">PHP Arrays</a><br/>
-        </details>
-      </div>
-      <div id="ruby" class="course pro">
-        <details>
-          <summary>Ruby</summary>
-        </details>
-      </div>
-      <div id="python" class="course pro">
-        <details>
-          <summary>Python</summary>
-          <a href="http://www.codecademy.com/courses/python-beginner-en-fymF4/0/1" target="_blank" class="link">Teach Yourself Python</a><br/>
-        </details>
-      </div>
-      <div id="jQuery" class="course web">
-        <details>
-          <summary>jQuery</summary>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-lxkh0/0/1" target="_blank" class="link">Using jQuery</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-6DYRu/0/1" target="_blank" class="link">The jQuery UI User Interface Library</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-beginner-en-tKzmu/0/1" target="_blank" class="link">Notes on jQuery</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-jtFIC/0/1" target="_blank" class="link">jQuery Effects</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-JwhI1/0/1" target="_blank" class="link">jQuery Events</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-GfjC6/0/1" target="_blank" class="link">jQuery Functions and Selectors</a><br/>
-          <a href="https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1" target="_blank" class="link">Introduction to jQuery</a><br/>
-          <a href="https://www.codecademy.com/courses/web-intermediate-9tw0N/0/1" target="_blank" class="link">jQuery Effects and Plugins</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-lesson-951/0/1" target="_blank" class="link">Sliding with jQuery</a><br/>
-          <a href="https://www.codecademy.com/courses/jquery-events/0/1" target="_blank" class="link">jQuery Events</a><br/>
-          <a href="https://www.codecademy.com/courses/jquery-checkers-part-2/0/1" target="_blank" class="link">jQuery Checkers - Part 2</a><br/>
-          <a href="https://www.codecademy.com/courses/basic-jquery-part-two/0/1" target="_blank" class="link">Basic jQuery - Part Two</a><br/>
-          <a href="https://www.codecademy.com/courses/jquery-checkers/0/1" target="_blank" class="link">jQuery Checkers</a><br/>
-          <a href="https://www.codecademy.com/courses/basic-jquery/0/1" target="_blank" class="link">Basic jQuery</a><br/>
-          <a href="https://www.codecademy.com/courses/you-and-jquery/0/1" target="_blank" class="link">jQuery Bar Graph</a><br/>
-          <a href="https://www.codecademy.com/courses/javascript-for-jquery/0/1" target="_blank" class="link">Javascript review for jQuery</a><br/>
-        </details>
-      </div>
-      <div id="api" class="course web">
-        <details>
-          <summary>API</summary>
-          <a href="https://www.codecademy.com/en/tracks/placekitten" target="_blank" class="link">Placekitten API</a><br/>
-        </details>
-      </div>
-      <div id="react" class="course web">
-        <details>
-            <summary>REACT</summary>
-            <a href="https://www.codecademy.com/learn/react-101" target="_blank" class="link">Learn ReactJS: Part I</a><br/>
-            <a href="https://www.codecademy.com/learn/react-102" target="_blank" class="link">Learn ReactJS: Part II</a><br/>
-        </details>
-      </div>
-    </div>
+      <br/>
     
-    <h6>If you would like to help and improve this web site, fork, pr(pull request), or, open an issue.</h6>
+      <h6>If you would like to help and improve this web site, fork, pr(pull request), or, open an issue.</h6>
+    </div>
 
     <script type="text/javascript">
       function showCourse(type){
           $(".course").hide();
-          $(type).show();
+          $("."+type).show();
+          $("#menuItems *").removeClass('active');
+          $("#show_"+type).addClass('active');
       }
       function showAllCourses(){
           $(".course").show();
+          $("#menuItems *").removeClass('active');
       }
     </script>
   </body>
