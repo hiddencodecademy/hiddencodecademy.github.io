@@ -16,3 +16,6 @@ body {
 .link {
   display: block;
 }
+summary {
+  cursor: pointer;
+}
