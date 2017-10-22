@@ -1,0 +1,393 @@
+courses = {
+  /*
+    HTML courses
+  */
+  "html": {
+    "name": "HTML",
+    "slug": "html",
+    "category": "web",
+    "description": "",
+    "links": [
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-MWF0C-FYSv3-r1rYm/0/1",
+        "name": "HTML BASICS"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/web-original",
+        "name": "Web Original"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/lists-in-html/0/1",
+        "name": "Lists in HTML"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-y2Yjd/0/1",
+        "name": "HTML Basics II"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1",
+        "name": "HTML Basics"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-Hdmch/0/1",
+        "name": "HTML5 Games: Physics"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-intermediate-en-CkOwl/0/1",
+        "name": "HTML5 Games: Getting Started"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-intermediate-en-R6bnc/0/1",
+        "name": "HTML5"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-intermediate-en-5LH5k/0/1",
+        "name": "HTML5 Games: Getting Input"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-Kufo3/0/1",
+        "name": "HTML Basics III"
+      }
+    ]
+  },
+
+  /*
+    CSS courses
+  */
+  "css": {
+    "name": "CSS",
+    "slug": "css",
+    "category": "web",
+    "description": "",
+    "links": [
+      {
+        "url": "https://www.codecademy.com/courses/css-coding-with-style/0/1",
+        "name": "CSS: Coding With Style"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/advanced-css-positioning/0/1",
+        "name": "Advanced CSS Positioning"
+      }
+    ]
+  },
+
+  /*
+    Javascript courses
+  */
+  "js": {
+    "name": "Javascript",
+    "slug": "js",
+    "category": "web",
+    "description": "",
+    "links": [
+      {
+        "url": "https://www.codecademy.com/courses/web-intermediate-en-jfhjJ/0/1",
+        "name": "Build a calcuator"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/javascript-original",
+        "name": "javascript-original"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-IN1IP/0/1",
+        "name": "Javascript various topics"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-jJ4wD/0/1",
+        "name": "Challenges [Javascript] 3"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-vBwnV/0/1",
+        "name": "Review of Functions in JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-6RiqN/0/1",
+        "name": "Small-Scale Javascript, part II: looping"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-d0Mp0/0/1",
+        "name": "Javascript First Challenges! (BETA)"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-ftxvD/0/1",
+        "name": "Ninja Coding - Javascript - Part 1"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-intermediate-en-NmK02/0/1",
+        "name": "Javascript Text-Based RPG"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-Zgxr6/0/1",
+        "name": "Basics &amp; Essentials of JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-EID4t/0/1",
+        "name": "How to use APIs with JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-5bl8g/0/1",
+        "name": "Introducing JavaScript - Simple Scripts"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/intro-to-client-side-javascript/0/1",
+        "name": "Track(1):Intro to Client-Side JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-SEgtM/0/1",
+        "name": "JavaScript and CSS"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-5knNv/0/1",
+        "name": "JavaScript and Cookies"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-6sc7L/0/1",
+        "name": "Small-Scale Javascript, part I"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/i-know-not-of-this-so-called-triangle-in-javacsript/0/1",
+        "name": "Quick Math in JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-SWM11/0/1",
+        "name": "Draw with JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/code-javascript-collections/0/1",
+        "name": "JavaScript collections"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-lesson-27/0/1",
+        "name": "Math in JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-intro/0/1",
+        "name": "JavaScript Quick Start Guide"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-for-jquery/0/1",
+        "name": "Javascript review for jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-lesson-205/0/1",
+        "name": "Recursion in JavaScript"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/html-javascript-css/0/1",
+        "name": "HTML + Javascript + CSS"
+      },
+      {
+        "url": "https://www.codecademy.com/en/courses/javascript-intermediate-en-mxOUj/0/1",
+        "name": "Error handling"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-advanced-en-wQkx9/0/1",
+        "name": "HTML Games: Drawing 3D in Three.js"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-lesson-F318S/0/1",
+        "name": "Variables"
+      }
+    ]
+  },
+
+  /*
+    PHP courses
+  */
+  "php": {
+    "name": "PHP",
+    "slug": "php",
+    "category": "web pro",
+    "description": "",
+    "links": [
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-7I7Xm/0/1",
+        "name": "PHP Functions"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-bH5s3/0/1",
+        "name": "PHP Object oriented (classes)"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-8a35h/0/1",
+        "name": "PHP Arrays"
+      }
+    ]
+  },
+  /*
+    Ruby courses
+  */
+  "ruby": {
+    "name": "Ruby",
+    "slug": "ruby",
+    "category": "pro",
+    "description": "",
+    "links": [
+      {
+      //  "url": "#",
+      //  "name": ""
+      }
+    
+    ]
+  },
+
+  /*
+    Python courses
+  */
+  "python": {
+    "name": "Python",
+    "slug": "python",
+    "category": "pro",
+    "description": "",
+    "links": [
+      {
+        "url": "http://www.codecademy.com/courses/python-beginner-en-fymF4/0/1",
+        "name": "Teach Yourself Python"
+      }
+    ]
+  },
+
+  /*
+    jQuery courses
+  */
+  "jquery": {
+    "name": "jQuery",
+    "slug": "jquery",
+    "category": "web",
+    "description": "",
+    "links": [
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-lxkh0/0/1",
+        "name": "Using jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-6DYRu/0/1",
+        "name": "The jQuery UI User Interface Library"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-tKzmu/0/1",
+        "name": "Notes on jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-jtFIC/0/1",
+        "name": "jQuery Effects"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-JwhI1/0/1",
+        "name": "jQuery Events"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-GfjC6/0/1",
+        "name": "jQuery Functions and Selectors"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1",
+        "name": "Introduction to jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-intermediate-9tw0N/0/1",
+        "name": "jQuery Effects and Plugins"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-lesson-951/0/1",
+        "name": "Sliding with jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/jquery-events/0/1",
+        "name": "jQuery Events"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/jquery-checkers-part-2/0/1",
+        "name": "jQuery Checkers - Part 2"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/basic-jquery-part-two/0/1",
+        "name": "Basic jQuery - Part Two"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/jquery-checkers/0/1",
+        "name": "jQuery Checkers"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/basic-jquery/0/1",
+        "name": "Basic jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/you-and-jquery/0/1",
+        "name": "jQuery Bar Graph"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-for-jquery/0/1",
+        "name": "Javascript review for jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-g7vdk/0/1",
+        "name": "jQuery and AJAX"
+      }
+    ]
+  },
+
+  /*
+    API courses
+  */
+  "api": {
+    "name": "API",
+    "slug": "api",
+    "category": "web",
+    "description": "",
+    "links": [
+      {
+        "url": "https://www.codecademy.com/en/tracks/twitter",
+        "name": "Twitter API"
+      }, 
+      {
+        "url": "https://www.codecademy.com/en/tracks/youtube",
+        "name": "YouTube API"
+      }, 
+      {
+        "url": "https://www.codecademy.com/en/tracks/mandrill",
+        "name": "Mandrill API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/soundcloud",
+        "name": "SoundCloud API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/npr",
+        "name": "npr API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/box_api",
+        "name": "BOX API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/evernote",
+        "name": "Evernote API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/placekitten",
+        "name": "Placekitten API"
+      }  
+    ]
+  },
+
+  /*
+    React courses
+  */
+  "react": {
+    "name": "ReactJS",
+    "slug": "react",
+    "category": "web",
+    "description": "",
+    "links": [
+      {
+        "url": "https://www.codecademy.com/learn/react-101",
+        "name": "Learn ReactJS: Part I"
+      },
+      {
+        "url": "https://www.codecademy.com/learn/react-102",
+        "name": "Learn ReactJS: Part II"
+      }
+    ]
+  }
+};
