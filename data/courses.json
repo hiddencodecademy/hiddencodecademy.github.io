@@ -197,7 +197,7 @@ courses = {
   "php": {
     "name": "PHP",
     "slug": "php",
-    "category": "web pro",
+    "category": "pro",
     "description": "",
     "links": [
       {
@@ -319,6 +319,10 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/javascript-for-jquery/0/1",
         "name": "Javascript review for jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-g7vdk/0/1",
+        "name": "jQuery and AJAX"
       }
     ]
   },

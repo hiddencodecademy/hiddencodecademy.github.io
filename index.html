@@ -1,5 +1,21 @@
 <DOCTYPE html>
-    <html>
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>CodeCademy Hidden Courses</title>
+    <link rel="stylesheet" href="./styles/app.css" />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css">
+      .pointerCursor {
+        cursor: pointer;
+      }
+    </style>
+  </head>
 
     <head>
         <meta charset="utf-8">
@@ -15,34 +31,33 @@
 
     <body>
     <!-- Menubar -->
-        <nav class="navbar navbar-default" style="border-color: #1f4056; border-radius: 0px; border-width: 0px; border-bottom-width: 2px;">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coursesMenu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand handCursor" onclick="showAllCourses()" style="color: #1f4056;">CodeCademy Hidden Courses</a>
-                </div>
-                <div class="collapse navbar-collapse" id="coursesMenu">
-                    <ul class="nav navbar-nav navbar-right" id="menuItems">
-                        <li id="show_web">
-                            <a class="handCursor" onclick="showCourse('web')">Web Development</a>
-                        </li>
-                        <li id="show_pro">
-                            <a class="handCursor" onclick="showCourse('pro')">Programming</a>
-                        </li>
-                        <li id="show_data">
-                            <a class="handCursor" onclick="showCourse('data')">Data Science</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <nav class="navbar navbar-default" style="border-color: #1f4056; border-radius: 0px; border-width: 0px; border-bottom-width: 2px;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coursesMenu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand pointerCursor" onclick="showAllCourses()" style="color: #1f4056;">CodeCademy Hidden Courses</a>
+        </div>
+        <div class="collapse navbar-collapse" id="coursesMenu">
+          <ul class="nav navbar-nav navbar-right" id="menuItems">
+            <li id="show_web">
+              <a class="pointerCursor" onclick="showCourse('web')">Web Development</a>
+            </li>
+            <li id="show_pro">
+              <a class="pointerCursor" onclick="showCourse('pro')">Programming</a>
+            </li>
+            <li id="show_data">
+              <a class="pointerCursor" onclick="showCourse('data')">Data Science</a>
+            </li>
+          </ul>
+        </div>
 
         <div class="container">
-            <div class="row" id="courses">
+          <div id="courses">
+
             <!-- <div id="html" class="course web">
               <details>
                 <summary>HTML</summary>
@@ -212,16 +227,16 @@
                 <br/>
               </details>
             </div> -->
-            </div>
+          </div>
 
-            <br/>
+          <br/>
+
+          <h6>If you would like to help and improve this web site, fork, pr(pull request), or, open an issue.</h6>
         </div>
 
-        <h6>If you would like to help and improve this web site, fork, pr(pull request), or, open an issue.</h6>
+        <script src= "data/courses.json"></script>
+        <script src="./scripts/app.js"></script>
+  </body>
 
-        <script src="./data/courses.json"></script>
-        <!-- <script src="./scripts/app.js"></script> -->
-        <script src="./scripts/developing.js"></script>
-    </body>
-
-</html>
+  </html>
+  <!-- <a href=""></a> -->

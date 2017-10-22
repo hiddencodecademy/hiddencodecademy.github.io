@@ -16,10 +16,11 @@ body {
 .link {
   display: block;
 }
-.handCursor{
+
+/* .handCursor{
 	cursor: pointer;
 }
-
+ */
 .panel {
   position: relative;
   border-radius: 0px;
@@ -60,4 +61,7 @@ body {
 .panel.panel-api {
   border-top-width: 3px;
   border-top-color: #586069; /*default color*/
+}
+.clickable:hover {
+  cursor: pointer;
 }
