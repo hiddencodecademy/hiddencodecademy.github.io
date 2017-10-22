@@ -197,7 +197,7 @@ courses = {
   "php": {
     "name": "PHP",
     "slug": "php",
-    "category": "pro",
+    "category": "web pro",
     "description": "",
     "links": [
       {
