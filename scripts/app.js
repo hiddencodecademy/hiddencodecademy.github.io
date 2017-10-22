@@ -3,50 +3,35 @@ $(document).ready(function() {
   /*
     Functions
   */
-  populateCourses = function() {
-    let $coursesEl = $('#courses');
 
-    $.map(courses, function(course, i) {
+  populateCourses = () => {
 
-      let $panel = $('<div class="col-lg-4 col-md-6 col-sm-12"><div id="'+course.slug+'" class="panel-group course '+course.category+'"><div class="panel panel-'+course.slug+'"> </div></div></div>');
-      let $head = $('<a data-toggle="collapse" href="#'+course.slug+'_col"><div class="panel-heading"><h4 class="panel-title"> </h4></div></a>');
-      let $title = course.name;
-      let $list = $('<div id="'+course.slug+'_col" class="panel-collapse collapse"><ul class="list-group"></ul></div>');
+    $.map(courses, (course, i) => {
+      let title = '<h2 class="group-title mb-3">'+course.name+'</h2>';
+      $('#courses').append(title);
 
-      $head.find('.panel-title').append($title);
+      let group = '<div class="row mb-3" id="'+course.name+'"></div>';
+      $('#courses').append(group);
 
-      $.map(course.links, function(link, i) {
-        let $link =  $('<li class="list-group-item"><a href="'+link.url+'" class="link" target="_blank">'+link.name+'</a></li>')
-        $list.find('.list-group').append($link);
+      $.map(course.links, (link, i) => {
+        if (link.url != '#') {
+          let card = '<div class="col-lg-4 col-md-6 col-sm-12 mb-3"><div class="card"><div class="card-body"><h3 class="card-title">'+link.name+'</h3><a href="'+link.url+'" class="card-link">Go to course</a></div></div></div>';
+          $('#'+course.name).append(card);
+        } else {
+          $('#'+course.name).append('<p class="col">No courses added yet...</p>');
+        };
       });
-
-      $panel.find('.panel').append($head);
-      $panel.find('.panel').append($list);
-      $coursesEl.append($panel);
     });
-  }
-
-
-  window.showCourse = function(type) {
-    $('.course').hide();
-    $('.' + type).show();
-    $('#menuItems *').removeClass('active');
-    $('#show_' + type).addClass('active');
-  }
-
-  window.showAllCourses = function() {
-    $('.course').show();
-    $('#menuItems *').removeClass('active');
   }
 
   /*
     DOM events
   */
 
-
   /*
     Initialization
   */
+
   populateCourses();
 
 });

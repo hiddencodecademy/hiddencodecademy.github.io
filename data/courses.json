@@ -72,10 +72,10 @@ courses = {
   },
 
   /*
-    Javascript courses
+    JavaScript courses
   */
   "js": {
-    "name": "Javascript",
+    "name": "JavaScript",
     "slug": "js",
     "category": "web",
     "description": "",
@@ -224,10 +224,10 @@ courses = {
     "description": "",
     "links": [
       {
-      //  "url": "#",
-      //  "name": ""
+        "url": "#",
+        "name": ""
       }
-    
+
     ]
   },
 
@@ -339,11 +339,11 @@ courses = {
       {
         "url": "https://www.codecademy.com/en/tracks/twitter",
         "name": "Twitter API"
-      }, 
+      },
       {
         "url": "https://www.codecademy.com/en/tracks/youtube",
         "name": "YouTube API"
-      }, 
+      },
       {
         "url": "https://www.codecademy.com/en/tracks/mandrill",
         "name": "Mandrill API"
@@ -367,7 +367,7 @@ courses = {
       {
         "url": "https://www.codecademy.com/en/tracks/placekitten",
         "name": "Placekitten API"
-      }  
+      }
     ]
   },
 
