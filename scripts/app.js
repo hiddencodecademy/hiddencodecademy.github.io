@@ -9,7 +9,7 @@ $(document).ready(function() {
     $.map(courses, function(course, i) {
       let $list = $('<div id="'+course.slug+'" class="course web '+course.category+'">');
       let $details = $('<details></details>');
-      let $summary = $('<summary>'+course.name+'</details>');
+      let $summary = $('<summary class="clickable">'+course.name+'</details>');
 
       $details.append($summary);
 
