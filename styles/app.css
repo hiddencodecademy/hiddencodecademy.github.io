@@ -16,6 +16,52 @@ body {
 .link {
   display: block;
 }
+
+/* .handCursor{
+	cursor: pointer;
+}
+ */
+.panel {
+  position: relative;
+  border-radius: 0px;
+  background: #ffffff;
+  font-size:16px;
+  border: 0px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/*use Github color codes for each languages*/
+.panel.panel-html {
+  border-top-width: 3px;
+  border-top-color: #e34c26;
+}
+.panel.panel-css {
+  border-top-width: 3px;
+  border-top-color: #563d7c;
+}
+.panel.panel-python {
+  border-top-width: 3px;
+  border-top-color: #3572a5;
+}
+.panel.panel-js,
+.panel.panel-jquery,
+.panel.panel-react{
+  border-top-width: 3px;
+  border-top-color: #f1e05a;
+}
+.panel.panel-php {
+  border-top-width: 3px;
+  border-top-color: #4f5d97;
+}
+.panel.panel-ruby {
+  border-top-width: 3px;
+  border-top-color: #701516;
+}
+.panel.panel-api {
+  border-top-width: 3px;
+  border-top-color: #586069; /*default color*/
+}
 .clickable:hover {
   cursor: pointer;
 }
