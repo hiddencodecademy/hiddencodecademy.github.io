@@ -1,0 +1,41 @@
+@import "./bootstrap/bootstrap";
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.navbar-brand h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.btn-outline-primary {
+  border-width: 2px;
+  //font-weight: bold;
+}
+
+.navbar-brand h1, .group-title, .btn-outline-primary {
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 18px
+}
+
+.group-title {
+  font-size: 24px
+}
+
+#courses p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 595px) {
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contribute {
+    display: none;
+  }
+}

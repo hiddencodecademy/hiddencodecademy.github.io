@@ -1,56 +1,38 @@
-<DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hidden Codecademy Courses</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CodeCademy Hidden Courses</title>
-        <link rel="stylesheet" href="./styles/app.css" />
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    </head>
+  <nav class="navbar navbar-light">
+    <div class="container">
+      <a class="navbar-brand"><h1>Hidden Codecademy Courses</h1></a>
+      <a href="https://github.com/CodecademyHiddenCourses/Courses" class="btn btn-outline-primary contribute">Contribute</a>
+    </div>
+  </nav>
 
-    <body>
-    <!-- Menubar -->
-        <nav class="navbar navbar-default" style="border-color: #1f4056; border-radius: 0px; border-width: 0px; border-bottom-width: 2px;">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#coursesMenu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand handCursor" onclick="showAllCourses()" style="color: #1f4056;">CodeCademy Hidden Courses</a>
-                </div>
-                <div class="collapse navbar-collapse" id="coursesMenu">
-                    <ul class="nav navbar-nav navbar-right" id="menuItems">
-                        <li id="show_web">
-                            <a class="handCursor" onclick="showCourse('web')">Web Development</a>
-                        </li>
-                        <li id="show_pro">
-                            <a class="handCursor" onclick="showCourse('pro')">Programming</a>
-                        </li>
-                        <li id="show_data">
-                            <a class="handCursor" onclick="showCourse('data')">Data Science</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <div class="container" id="courses">
+    <p class="mt-3">Here you will find a collection of courses, that are not listed in the official <a href="https://www.codecademy.com/">Codecademy</a> catalog.<br>This collection is curated by user submitted courses.</p>
+  </div>
 
-        <div class="container">
-            <div class="row" id="courses">
-            </div>
-        </div>
+  <div class="container">
+    <p>If you would like to help and improve this website, please consider heading over to our GitHub page <a href="https://github.com/CodecademyHiddenCourses/Courses">here</a>.</p>
+  </div>
 
-        <br/>
-        <h6>If you would like to help and improve this web site, fork, pr(pull request), or, open an issue.</h6>
 
-        <script src="./data/courses.json"></script>
-        <script src="./scripts/app.js"></script>
-    </body>
 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script src="./data/courses.json"></script>
+  <script src="./scripts/app.js"></script>
+</body>
 </html>
