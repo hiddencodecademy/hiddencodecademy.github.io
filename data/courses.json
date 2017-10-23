@@ -47,6 +47,14 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/web-beginner-en-Kufo3/0/1",
         "name": "HTML Basics III"
+      },
+      {
+        "url": "http://www.codecademy.com/courses/web-intermediate-en-Bw3bg/0/1",
+        "name": "Mastering Markdown"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-8l45k/0/1",
+        "name": "Introduction to HTML5 and CSS3"
       }
     ]
   },
@@ -72,10 +80,10 @@ courses = {
   },
 
   /*
-    Javascript courses
+    JavaScript courses
   */
   "js": {
-    "name": "Javascript",
+    "name": "JavaScript",
     "slug": "js",
     "category": "web",
     "description": "",
@@ -187,7 +195,11 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/javascript-lesson-F318S/0/1",
         "name": "Variables"
-      }
+      },
+      {
+        "url": "https://www.codecademy.com/courses/the-date-object/0/1",
+        "name": "The Date Object"
+      }       
     ]
   },
 
@@ -197,7 +209,7 @@ courses = {
   "php": {
     "name": "PHP",
     "slug": "php",
-    "category": "pro",
+    "category": "web pro",
     "description": "",
     "links": [
       {
@@ -222,7 +234,13 @@ courses = {
     "slug": "ruby",
     "category": "pro",
     "description": "",
-    "links": []
+    "links": [
+      {
+        "url": "#",
+        "name": ""
+      }
+
+    ]
   },
 
   /*
@@ -313,6 +331,10 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/javascript-for-jquery/0/1",
         "name": "Javascript review for jQuery"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-beginner-en-g7vdk/0/1",
+        "name": "jQuery and AJAX"
       }
     ]
   },
@@ -326,6 +348,34 @@ courses = {
     "category": "web",
     "description": "",
     "links": [
+      {
+        "url": "https://www.codecademy.com/en/tracks/twitter",
+        "name": "Twitter API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/youtube",
+        "name": "YouTube API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/mandrill",
+        "name": "Mandrill API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/soundcloud",
+        "name": "SoundCloud API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/npr",
+        "name": "npr API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/box_api",
+        "name": "BOX API"
+      },
+      {
+        "url": "https://www.codecademy.com/en/tracks/evernote",
+        "name": "Evernote API"
+      },
       {
         "url": "https://www.codecademy.com/en/tracks/placekitten",
         "name": "Placekitten API"

@@ -3,47 +3,35 @@ $(document).ready(function() {
   /*
     Functions
   */
-  populateCourses = function() {
-    let $coursesEl = $('#courses');
 
-    $.map(courses, function(course, i) {
-      let $list = $('<div id="'+course.slug+'" class="course web '+course.category+'">');
-      let $details = $('<details></details>');
-      let $summary = $('<summary>'+course.name+'</details>');
+  populateCourses = () => {
 
-      $details.append($summary);
+    $.map(courses, (course, i) => {
+      let title = '<h2 class="group-title mb-3">'+course.name+'</h2>';
+      $('#courses').append(title);
 
-      $.map(course.links, function(link, i) {
-        let $link =  $('<a href="'+link.url+'" class="link" target="_blank">'+link.name+'</a>')
-        $details.append($link);
+      let group = '<div class="row mb-3" id="'+course.name+'"></div>';
+      $('#courses').append(group);
+
+      $.map(course.links, (link, i) => {
+        if (link.url != '#') {
+          let card = '<div class="col-lg-4 col-md-6 col-sm-12 mb-3"><div class="card"><div class="card-body"><h3 class="card-title">'+link.name+'</h3><a href="'+link.url+'" class="card-link">Go to course</a></div></div></div>';
+          $('#'+course.name).append(card);
+        } else {
+          $('#'+course.name).append('<p class="col">No courses added yet...</p>');
+        };
       });
-
-      $list.append($details);
-      $coursesEl.append($list);
     });
-  }
-
-
-  window.showCourse = function(type) {
-    $('.course').hide();
-    $('.' + type).show();
-    $('#menuItems *').removeClass('active');
-    $('#show_' + type).addClass('active');
-  }
-
-  window.showAllCourses = function() {
-    $('.course').show();
-    $('#menuItems *').removeClass('active');
   }
 
   /*
     DOM events
   */
 
-
   /*
     Initialization
   */
+
   populateCourses();
 
 });
