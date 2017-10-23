@@ -47,6 +47,14 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/web-beginner-en-Kufo3/0/1",
         "name": "HTML Basics III"
+      },
+      {
+        "url": "http://www.codecademy.com/courses/web-intermediate-en-Bw3bg/0/1",
+        "name": "Mastering Markdown"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/web-beginner-en-8l45k/0/1",
+        "name": "Introduction to HTML5 and CSS3"
       }
     ]
   },
@@ -187,7 +195,11 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/javascript-lesson-F318S/0/1",
         "name": "Variables"
-      }
+      },
+      {
+        "url": "https://www.codecademy.com/courses/the-date-object/0/1",
+        "name": "The Date Object"
+      }       
     ]
   },
 
