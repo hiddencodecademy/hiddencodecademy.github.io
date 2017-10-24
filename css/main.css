@@ -7106,3 +7106,9 @@ a.text-dark:focus, a.text-dark:hover {
     padding-right: 0; }
   .contribute {
     display: none; } }
+
+.course-icon{
+  width: 50px;
+  height: 50px;
+
+}
