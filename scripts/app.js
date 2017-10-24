@@ -7,7 +7,7 @@ $(document).ready(function() {
   populateCourses = () => {
 
     $.map(courses, (course, i) => {
-      let title = '<h2 class="group-title mb-3">'+course.name+'</h2>';
+      let title = '<h2 class="group-title mb-3"><img src="./img/'+course.name+'.png" alt="'+ course.name+'" class="course-icon">'+course.name+' </h2>';
       $('#courses').append(title);
 
       let group = '<div class="row mb-3" id="'+course.name+'"></div>';
