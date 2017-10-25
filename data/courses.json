@@ -1,3 +1,43 @@
+/*
+  Template new topic
+
+  "ai": {
+    "name": "Artifial Intelligence",
+    "slug": "artificial-intelligence",
+    "category": "pro",
+    "description": "Simple description",
+    "links": [
+      {
+        "url": "http://the-link.com",
+        "name": "Name of the course"
+      }
+    ]
+  }
+
+*/
+
+/*
+  Template new course in topic
+
+  "ai": {
+    "name": "Artifial Intelligence",
+    "slug": "artificial-intelligence",
+    "category": "pro",
+    "description": "Simple description",
+    "links": [
+      {
+        "url": "http://the-link.com",
+        "name": "Name of the course"
+      },
+      {
+        "url": "http://the-other-link.com",
+        "name": "Name of the other course"
+      }
+    ]
+  }
+
+*/
+
 courses = {
   /*
     HTML courses
@@ -199,7 +239,7 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/the-date-object/0/1",
         "name": "The Date Object"
-      }       
+      }
     ]
   },
 
