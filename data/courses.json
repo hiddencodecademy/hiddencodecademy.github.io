@@ -379,6 +379,10 @@ courses = {
       {
         "url": "https://www.codecademy.com/en/tracks/placekitten",
         "name": "Placekitten API"
+      },
+      {
+        "url": "https://www.codecademy.com/learn/learn-alexa",
+        "name": "Introduction to Alexa"
       }
     ]
   },
