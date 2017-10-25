@@ -4,15 +4,6 @@
 Here you will find a collection of hidden courses on Codecademy.
 https://hiddencodecademy.github.io/
 
-### Running the project in your local machine
-
-- Clone the project
-- Go to the project folder
-- Install `http-server` (to run a local server)
-- Execure `http-server` whitin the project folder
-- Open the url given in your browser, usually `127.0.0.1`
-- Enjoy!
-- 
 ### Contributions
 
 You can contribute to this project by adding more courses to our current list.
