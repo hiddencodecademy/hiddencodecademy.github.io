@@ -239,6 +239,14 @@ courses = {
       {
         "url": "https://www.codecademy.com/courses/the-date-object/0/1",
         "name": "The Date Object"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/javascript-intermediate-en-2nQQb/0/1",
+        "name": "How To Make JS Your Own"
+      },
+      {
+        "url": "https://www.codecademy.com/en/courses/testing-your-code/0/3",
+        "name": "Testing Your Code"
       }
     ]
   },
@@ -295,6 +303,30 @@ courses = {
       {
         "url": "http://www.codecademy.com/courses/python-beginner-en-fymF4/0/1",
         "name": "Teach Yourself Python"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/data-management-for-scientists/0/1",
+        "name": "Data Management for Scientists"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/python-beginner-en-XZ6Pr/0/1",
+        "name": "Python Basics"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/python-basics-s74W4/0/1",
+        "name": "Introduction to Python"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/welcome-to-python/0/1",
+        "name": "Welcome to Python - The Basics"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/getting-started-with-python/0/1",
+        "name": "Getting Started with Python"
+      },
+      {
+        "url": "https://www.codecademy.com/courses/python-advanced-en-7hJDu/0/1",
+        "name": "Regular Expression"
       }
     ]
   },
