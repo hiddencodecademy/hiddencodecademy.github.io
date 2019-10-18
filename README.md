@@ -1,4 +1,6 @@
 # Hidden Codecademy Courses
+
+###### *This has been discontinued with the discontinuation of Hidden Courses.*
 ----
 
 Here you will find a collection of hidden courses on Codecademy.
